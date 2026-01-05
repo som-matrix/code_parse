@@ -5,7 +5,7 @@ Gem::Specification.new do |spec|
   spec.version     = CodeParse::VERSION
   spec.authors     = [ "Satya" ]
   spec.email       = [ "swaroopsatya36@gmail.com" ]
-  spec.homepage    = "https://example.com"
+  spec.homepage    = "https://github.com/som-matrix/code_parse"
   spec.summary     = "Parsing engine for your rails app"
   spec.description = "Parsing engine for your rails app"
   spec.license     = "MIT"
@@ -15,8 +15,8 @@ Gem::Specification.new do |spec|
   spec.metadata["allowed_push_host"] = "TODO: Set to 'http://mygemserver.com'"
 
   spec.metadata["homepage_uri"] = spec.homepage
-  spec.metadata["source_code_uri"] = "https://example.com"
-  spec.metadata["changelog_uri"] = "https://example.com"
+  spec.metadata["source_code_uri"] = "https://github.com/som-matrix/code_parse"
+  spec.metadata["changelog_uri"] = "https://github.com/som-matrix/code_parse"
 
   spec.files = Dir.chdir(File.expand_path(__dir__)) do
     Dir["{app,config,db,lib}/**/*", "MIT-LICENSE", "Rakefile", "README.md"]
