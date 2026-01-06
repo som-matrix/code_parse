@@ -1,8 +1,8 @@
 module CodeParse
   module Api
-    class ModelsController < ApplicationController
+    class ControllersController < ApplicationController
     def index
-      data = Parsers::FileParser.new("model").parse
+      data = Parsers::FileParser.new("controller").parse
 
       render json: data
     rescue => e
